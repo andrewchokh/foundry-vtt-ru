@@ -70,11 +70,11 @@
 		"SECTIONS": {
 			"Bonuses": {
 				"Label": "Бонусы {ability}",
-				"Hint": "Эти бонусы применяются к проверкам и испытаниям {ability}."
+				"Hint": "Эти бонусы применяются к проверкам и спасброскам {ability}."
 			},
 			"Global": {
 				"Label": "Глобальные бонусы",
-				"Hint": "Эти бонусы применяются к проверкам и испытаниям всех характеристик."
+				"Hint": "Эти бонусы применяются к проверкам и спасброскам всех характеристик."
 			},
 			"Score": "Показатель {ability}"
 		}
@@ -115,11 +115,11 @@
 	"DND5E.AbilityUseConfig": "Настройка использования",
 	"DND5E.AbilityBonuses": "Бонусы характеристики",
 	"DND5E.AbilityConfigure": "Настройка {ability}",
-	"DND5E.AbilityConfigureTitle": "Настройка проверок и испытаний {ability}",
-	"DND5E.AbilitySaveConfigure": "Испытания {ability}",
+	"DND5E.AbilityConfigureTitle": "Настройка проверок и спасбросков {ability}",
+	"DND5E.AbilitySaveConfigure": "Спасброски {ability}",
 	"DND5E.AbilityCheckConfigure": "Проверки {ability}",
 	"DND5E.AbilityCheckConfigurationHint": "Настройка бонусов проверок",
-	"DND5E.AbilityConfigurationHint": "Настройка бонусов проверок, испытаний и умений.",
+	"DND5E.AbilityConfigurationHint": "Настройка бонусов проверок, спасбросков и умений.",
 	"DND5E.AbilityCheckBonus": "Бонус проверки",
 	"DND5E.AbilityCheckGlobalBonusHint": "Бонус применяется ко всем проверкам характеристик.",
 	"DND5E.Action": "Действие",
@@ -133,7 +133,7 @@
 	"DND5E.ActionOther": "Другое",
 	"DND5E.ActionRSAK": "Дист. атака заклинанием",
 	"DND5E.ActionRWAK": "Дист. атака оружием",
-	"DND5E.ActionSave": "Испытание",
+	"DND5E.ActionSave": "Спасбросок",
 	"DND5E.ActionSumm": "Призыв",
 	"DND5E.ActionUtil": "Вспомогательное",
 	"DND5E.ActionWarningNoItem": "Предмет {item} отсутствует у {name}",
@@ -298,15 +298,15 @@
 				"Roll": "Бросок {die}"
 			},
 			"Average": "Средние",
-			"Hint": "Отслеживание пунктов здоровья персонажа для каждого уровня класса.",
+			"Hint": "Отслеживание хитов персонажа для каждого уровня класса.",
 			"MaxAtFirstLevel": "Макс. на 1-ом уровне: <strong>{max}</strong>",
-			"Roll": "Бросок ПЗ для {class} ",
-			"Starting": "ПЗ на 1-ом уровне",
+			"Roll": "Бросок хитов для {class} ",
+			"Starting": "Хиты на 1-ом уровне",
 			"TakeAverage": "Взять средние",
-			"Title": "Пункты здоровья",
+			"Title": "Хиты",
 			"Warning": {
-				"Empty": "Пункты здоровья должны быть определены броском или выбрано среднее значение.",
-				"Invalid": "Пункты здоровья должны быть целым числом"
+				"Empty": "Хиты должны быть определены броском или выбрано среднее значение.",
+				"Invalid": "Хиты должны быть целым числом"
 			}
 		},
 		"ItemChoice": {
@@ -563,8 +563,8 @@
 					"Label": "По умолчанию"
 				},
 				"Expertise": {
-					"Hint": "Получить мастерство в навыке у которого уже есть умение.",
-					"Label": "Мастерство"
+					"Hint": "Получить компетентность в навыке у которого уже есть умение.",
+					"Label": "Компетентность"
 				},
 				"Force": {
 					"Hint": "Получить мастерство, даже если у персонажа нет умения.",
@@ -659,28 +659,28 @@
 			"Width": "Ширина"
 		}
 	},
-	"DND5E.Armor": "Броня",
-	"DND5E.ArmorClass": "Класс брони",
-	"DND5E.ArmorClassEquipment": "Надетая броня",
+	"DND5E.Armor": "Доспех",
+	"DND5E.ArmorClass": "Класс доспеха",
+	"DND5E.ArmorClassEquipment": "Надетый доспех",
 	"DND5E.ArmorClassFlat": "Неизменный",
-	"DND5E.ArmorClassUnarmored": "Без брони",
-	"DND5E.ArmorClassNatural": "Естественная броня",
+	"DND5E.ArmorClassUnarmored": "Без доспеха",
+	"DND5E.ArmorClassNatural": "Природный доспех",
 	"DND5E.ArmorClassMage": "Магический доспех",
-	"DND5E.ArmorClassMotionless": "КБ когда неподвижен",
+	"DND5E.ArmorClassMotionless": "КД когда неподвижен",
 	"DND5E.ArmorClassDraconic": "Драконья стойкость",
-	"DND5E.ArmorClassUnarmoredMonk": "Защита без брони (монах)",
-	"DND5E.ArmorClassUnarmoredBarbarian": "Защита без брони (варвар)",
-	"DND5E.ArmorClassUnarmoredBard": "Защита без брони (бард)",
+	"DND5E.ArmorClassUnarmoredMonk": "Защита без доспехов (монах)",
+	"DND5E.ArmorClassUnarmoredBarbarian": "Защита без доспехов (варвар)",
+	"DND5E.ArmorClassUnarmoredBard": "Защита без доспехов (бард)",
 	"DND5E.ArmorClassCustom": "Своя формула",
-	"DND5E.ArmorConfig": "Настройка брони",
-	"DND5E.ArmorConfigHint": "Заполните поле выше для перезаписи автоматического расчёта КБ",
+	"DND5E.ArmorConfig": "Настройка доспеха",
+	"DND5E.ArmorConfigHint": "Заполните поле выше для перезаписи автоматического расчёта КД",
 	"DND5E.ArmorClassCalculation": "Расчёт",
 	"DND5E.ArmorClassFormula": "Формула",
 	"DND5E.ArmorHeavyProficiency": "Тяжёлая",
 	"DND5E.ArmorLightProficiency": "Лёгкая",
 	"DND5E.ArmorMediumProficiency": "Средняя",
-	"DND5E.ArmorValue": "Значение брони",
-	"DND5E.AC": "КБ",
+	"DND5E.ArmorValue": "Значение доспеха",
+	"DND5E.AC": "КД",
 
 	"DND5E.ATTACK": {
 		"Title": {
@@ -856,8 +856,8 @@
 	"DND5E.Bonus": "Бонус",
 	"DND5E.BonusAbility": "Глобальные бонусы характеристик",
 	"DND5E.BonusAbilityCheck": "Глобальный бонус характеристик",
-	"DND5E.BonusAbilitySave": "Глобальный бонус испытаний",
-	"DND5E.BonusAbilitySaveTitle": "Глобальный бонус испытаний",
+	"DND5E.BonusAbilitySave": "Глобальный бонус спасбросков",
+	"DND5E.BonusAbilitySaveTitle": "Глобальный бонус спасбросков",
 	"DND5E.BonusAbilitySkill": "Глобальный бонус навыков",
 	"DND5E.BonusAction": "Бонусное действие",
 	"DND5E.BonusActionAbbr": "БД",
@@ -894,8 +894,8 @@
 						"hint": "Неизменный бонус к попаданию вместо обычного бонуса атаки заклинания."
 					},
 					"save": {
-						"label": "СЛ испытания",
-						"hint": "Неизменная СЛ  вместо обычной СЛ испытания заклинания."
+						"label": "СЛ спасброска",
+						"hint": "Неизменная СЛ вместо обычной СЛ спасброска заклинания."
 					},
 					"override": {
 						"label": "Перезапись значений",
@@ -982,7 +982,7 @@
 	"DND5E.Charges": "Заряды",
 	"DND5E.ChatContextDamage": "Нанести урон",
 	"DND5E.ChatContextHealing": "Исцелить",
-	"DND5E.ChatContextTempHP": "Применить временные ПЗ",
+	"DND5E.ChatContextTempHP": "Применить временные хиты",
 	"DND5E.ChatContextDoubleDamage": "Нанести двойной урон",
 	"DND5E.ChatContextHalfDamage": "Нанести половину урона",
 	"DND5E.ChatContextSelectHit": "Выбор попаданий",
@@ -1036,13 +1036,13 @@
 		},
 		"FIELDS": {
 			"hd": {
-				"label": "Кость здоровья",
+				"label": "Кость хитов",
 				"additional": {
-					"label": "Доп. кость здоровья",
-					"hint": "Формула костей здоровья, доступная этому классу, вдобавок к обычному количеству."
+					"label": "Доп. кость хитов",
+					"hint": "Формула костей хитов, доступная этому классу, вдобавок к обычному количеству."
 				},
 				"spent": {
-					"label": "Израсходованные кости здоровья"
+					"label": "Израсходованные кости хитов"
 				}
 			},
 			"levels": {
@@ -1069,7 +1069,7 @@
 	"DND5E.ClassMakeOriginalHint": "Первый класс, взятый персонажем игрока и использующийся для некоторых особенностей мультиклассирования.",
 	"DND5E.ClassName": "Класс",
 	"DND5E.ClassOriginal": "Оригинальный класс",
-	"DND5E.ClassSaves": "Испытания",
+	"DND5E.ClassSaves": "Спасброски",
 	"DND5E.Confirm": "Подтвердить",
 	"DND5E.CompendiumBrowser": {
 		"Title": "Навигатор библиотеки",
@@ -1196,11 +1196,11 @@
 	"DND5E.ConsumeType": "Категория расхода",
 	"DND5E.ConsumeAmmunition": "Боеприпасы",
 	"DND5E.ConsumeAttribute": "Параметр",
-	"DND5E.ConsumeHitDice": "Кость здоровья",
+	"DND5E.ConsumeHitDice": "Кость хитов",
 	"DND5E.ConsumeHitDiceLargest": "Наивысшая",
-	"DND5E.ConsumeHitDiceLargestLong": "Наивысшая доступная кость здоровья",
+	"DND5E.ConsumeHitDiceLargestLong": "Наивысшая доступная кость хитов",
 	"DND5E.ConsumeHitDiceSmallest": "Наименьшая",
-	"DND5E.ConsumeHitDiceSmallestLong": "Наименьшая доступная кость здоровья",
+	"DND5E.ConsumeHitDiceSmallestLong": "Наименьшая доступная кость хитов",
 	"DND5E.ConsumeMaterial": "Реагенты",
 	"DND5E.ConsumeCharges": "Использования предмета",
 	"DND5E.ConsumeResource": "Использовать ресурс?",
@@ -1366,16 +1366,16 @@
 				"Warning": "Значение {attribute}"
 			},
 			"HitDice": {
-				"Label": "Кость здоровья",
-				"PromptDecrease": "Расход кости здоровья?",
-				"PromptIncrease": "Восстановление кости здоровья?",
+				"Label": "Кость хитов",
+				"PromptDecrease": "Расход кости хитов?",
+				"PromptIncrease": "Восстановление кости хитов?",
 				"PromptHintDecrease": "Потратить <strong>{cost}</strong> {denomination} {die} (осталось {available}).",
 				"PromptHintIncrease": "Восстановить  <strong>{cost}</strong> {denomination} {die}.",
-				"Warning": "{denomination} КЗ"
+				"Warning": "{denomination} кость хитов"
 			},
 			"HitDie": {
-				"one": "кость здоровья",
-				"other": "кости здоровья"
+				"one": "кость хитов",
+				"other": "кости хитов"
 			},
 			"ItemUses": {
 				"Label": "Использования предмета",
@@ -1412,7 +1412,7 @@
 		},
 		"Warning": {
 			"MissingAttribute": "Параметр {attribute}, настроенный на расходование функцией {activity} на {item}, не может быть найден.",
-			"MissingHitDice": "У актёра нет класса с костью здоровья {denomination}.",
+			"MissingHitDice": "У актёра нет класса с костью хитов {denomination}.",
 			"MissingItem": "Предмет, настроенный на расходование функцией {activity} на {item}, не может быть найден.",
 			"MissingSpellSlot": "Нет доступных ячеек {level} круга.",
 			"None": "Нет доступных {type} для расходования. Требуется {cost}.",
@@ -1628,27 +1628,27 @@
 	"DND5E.DamageTypes": "Типы урона",
 	"DND5E.Dawn": "Рассвет",
 	"DND5E.Day": "День",
-	"DND5E.DeathSave": "Испытание против смерти",
-	"DND5E.DeathSaveBonus": "Бонус испытания против смерти",
-	"DND5E.DeathSaveConfigure": "Настройка испытания против смерти",
-	"DND5E.DeathSaveCriticalSuccess": "{name} критически преуспел в испытании против смерти и восстановил 1 ПЗ!",
-	"DND5E.DeathSaveHide": "Скрыть испытание против смерти",
-	"DND5E.DeathSaveShow": "Показать испытание против смерти",
-	"DND5E.DeathSaveSuccess": "{name} выживает с 3 успешными испытаниями против смерти!",
-	"DND5E.DeathSaveSuccessLabel": "Успешное испытание против смерти",
-	"DND5E.DeathSaveSuccessLabelN.one": "Первый успех испытания против смерти",
-	"DND5E.DeathSaveSuccessLabelN.two": "Второй успех испытания против смерти",
-	"DND5E.DeathSaveSuccessLabelN.few": "Третий успех испытания против смерти",
+	"DND5E.DeathSave": "Спасбросок от смерти",
+	"DND5E.DeathSaveBonus": "Бонус спасброска от смерти",
+	"DND5E.DeathSaveConfigure": "Настройка спасброска от смерти",
+	"DND5E.DeathSaveCriticalSuccess": "{name} критически преуспел в спасброске от смерти и восстановил 1 хит!",
+	"DND5E.DeathSaveHide": "Скрыть спасбросок от смерти",
+	"DND5E.DeathSaveShow": "Показать спасбросок от смерти",
+	"DND5E.DeathSaveSuccess": "{name} выживает с 3-мя успешными спасбросками от смерти!",
+	"DND5E.DeathSaveSuccessLabel": "Успешный спасброска от смерти",
+	"DND5E.DeathSaveSuccessLabelN.one": "Первый успех спасброска от смерти",
+	"DND5E.DeathSaveSuccessLabelN.two": "Второй успех спасброска от смерти",
+	"DND5E.DeathSaveSuccessLabelN.few": "Третий успех спасброска от смерти",
 	"DND5E.DeathSaveSuccesses": "Успехи",
-	"DND5E.DeathSaveFailure": "{name} погибает с 3 проваленными испытаниями против смерти!",
-	"DND5E.DeathSaveFailureLabel": "Провал испытания против смерти",
-	"DND5E.DeathSaveFailureLabelN.one": "Первый провал испытания против смерти",
-	"DND5E.DeathSaveFailureLabelN.two": "Второй провал испытания против смерти",
-	"DND5E.DeathSaveFailureLabelN.few": "Третий провал испытания против смерти",
+	"DND5E.DeathSaveFailure": "{name} погибает с 3 проваленными спасбросками от смерти!",
+	"DND5E.DeathSaveFailureLabel": "Провал спасброска от смерти",
+	"DND5E.DeathSaveFailureLabelN.one": "Первый провал спасброска от смерти",
+	"DND5E.DeathSaveFailureLabelN.two": "Второй провал спасброска от смерти",
+	"DND5E.DeathSaveFailureLabelN.few": "Третий провал спасброска от смерти",
 	"DND5E.DeathSaveFailures": "Провалы",
-	"DND5E.DeathSaveRoll": "Испытание против смерти",
-	"DND5E.DeathSavingThrow": "Испытание против смерти",
-	"DND5E.DeathSaveUnnecessary": "Вам не нужно проходить испытание против смерти, т.к. у вас более 0 ПЗ или уже 3 успеха.",
+	"DND5E.DeathSaveRoll": "Спасбросок от смерти",
+	"DND5E.DeathSavingThrow": "спасброска от смерти",
+	"DND5E.DeathSaveUnnecessary": "Вам не нужно проходить спасбросок против смерти, т.к. у вас более 0 хитов или уже 3 успеха.",
 	"DND5E.Default": "По умолчанию",
 	"DND5E.DefaultSpecific": "По умолчанию ({default})",
 	"DND5E.DefaultAbilityCheck": "Обычная проверка",
@@ -1887,15 +1887,15 @@
 	},
 
 	"DND5E.EquipmentBonus": "Магический бонус",
-	"DND5E.EquipmentHeavy": "Тяжёлая броня",
-	"DND5E.EquipmentLight": "Лёгкая броня",
-	"DND5E.EquipmentMedium": "Средняя броня",
-	"DND5E.EquipmentNatural": "Природная броня",
+	"DND5E.EquipmentHeavy": "Тяжёлый доспех",
+	"DND5E.EquipmentLight": "Лёгкий доспех",
+	"DND5E.EquipmentMedium": "Средний доспех",
+	"DND5E.EquipmentNatural": "Природный доспех",
 	"DND5E.EquipmentShield": "Щит",
 	"DND5E.EquipmentShieldProficiency": "Щиты",
 	"DND5E.Equipped": "Надето",
-	"DND5E.Exhaustion": "Утомление",
-	"DND5E.ExhaustionLevel": "{n}-я степень утомления",
+	"DND5E.Exhaustion": "Истощение",
+	"DND5E.ExhaustionLevel": "{n}-я степень истощения",
 
 	"DND5E.ExperiencePoints": {
 		"Abbreviation": "ПО",
@@ -1914,7 +1914,7 @@
 		"Value": "ПО"
 	},
 
-	"DND5E.Expertise": "Мастерство",
+	"DND5E.Expertise": "Компетентность",
 
 	"DND5E.FACILITY": {
 		"Action": {
@@ -2324,7 +2324,7 @@
 	"DND5E.FlagsSave": "Обновить особенности",
 	"DND5E.FlagsTitle": "Настройка особенностей",
 	"DND5E.FlagsDiamondSoul": "Алмазная душа",
-	"DND5E.FlagsDiamondSoulHint": "Умение во всех испытаниях.",
+	"DND5E.FlagsDiamondSoulHint": "Владение всеми спасбросках.",
 	"DND5E.FlagsPowerfulBuild": "Могучее телосложение",
 	"DND5E.FlagsPowerfulBuildHint": "Дополнительный переносимый вес.",
 	"DND5E.FlagsElvenAccuracy": "Эльфийская точность",
@@ -2334,14 +2334,14 @@
 	"DND5E.FlagsInitiativeAdv": "Преимущество инициативы",
 	"DND5E.FlagsInitiativeAdvHint": "Проверки инициативы получают преимущество.",
 	"DND5E.FlagsAlert": "Бдительный",
-	"DND5E.FlagsAlertHint": "Умение в проверках инициативы.",
+	"DND5E.FlagsAlertHint": "Владение проверки инициативы.",
 	"DND5E.FlagsAlertHintLegacy": "+5 к инициативе.",
 	"DND5E.FlagsJOAT": "Мастер на все руки",
 	"DND5E.FlagsJOATHint": "Половина бонуса умения в навыках у которых у вас нет умения.",
 	"DND5E.FlagsObservant": "Внимательный",
 	"DND5E.FlagsObservantHint": "+5 к пассивному Вниманию и Расследованию.",
 	"DND5E.FlagsTavernBrawler": "Трактирный забияка",
-	"DND5E.FlagsTavernBrawlerHint": "Умение в обращении с импровизированным оружием.",
+	"DND5E.FlagsTavernBrawlerHint": "Владение импровизированным оружием.",
 	"DND5E.FlagsReliableTalent": "Надёжный",
 	"DND5E.FlagsReliableTalentHint": "Особенность класса плута.",
 	"DND5E.FlagsRemarkableAthlete": "Атлет",
@@ -2361,7 +2361,7 @@
 	"DND5E.GlobalBonus": "Глобальные бонусы",
 	"DND5E.GrantedAbilities": "Полученные способности",
 	"DND5E.GroupInventory": "Инвентарь",
-	"DND5E.GroupHP": "Общие пункты здоровья",
+	"DND5E.GroupHP": "Общие хиты",
 	"DND5E.GroupSummary": "Группа из {members}",
 	"DND5E.GroupSummaryEmpty": "Пустая группа",
 	"DND5E.GroupControls": "Управление",
@@ -2454,34 +2454,34 @@
 
 	"DND5E.Healing": "Исцеление",
 	"DND5E.HealingRoll": "Бросок исцеления",
-	"DND5E.HealingTemp": "Временные ПЗ",
+	"DND5E.HealingTemp": "Временные хиты",
 	"DND5E.Height": "Рост",
 
 	"DND5E.HITPOINTS": {
 		"Counted": {
-			"one": "{number} пункт здоровья",
-			"other": "{number} пунктов здоровья"
+			"one": "{number} хит",
+			"other": "{number} хитов"
 		}
 	},
 
-	"DND5E.HitPoints": "Пункты здоровья",
+	"DND5E.HitPoints": "Хиты",
 	"DND5E.HitPointsBonusLevel": "Бонус за уровень",
 	"DND5E.HitPointsBonusOverall": "Общий бонус",
-	"DND5E.HitPointsConfig": "Настройка пунктов здоровья",
-	"DND5E.HitPointsCurrent": "Текущие пункты здоровья",
-	"DND5E.HitPointsMax": "Максимальные пункты здоровья",
-	"DND5E.HitPointsMin": "Минимальные пункты здоровья",
-	"DND5E.HitPointsOverride": "Перезапись максимальных ПЗ",
-	"DND5E.HitPointsOverrideHint": "Перезаписать автоматически раскичатанные пункты здоровья, игнорируя класс, бонусы и  прочие модификаторы.",
-	"DND5E.HitPointsTemp": "Временные пункты здоровья",
-	"DND5E.HitPointsTempShort": "Временные ПЗ",
-	"DND5E.HitPointsTempMax": "Временные максимальные ПЗ",
-	"DND5E.HitPointsTempMaxHint": "Временно изменяет максимальные ПЗ.",
-	"DND5E.HitPointsTempMaxShort": "Врем. макс. ПЗ",
-	"DND5E.HP": "ПЗ",
-	"DND5E.HPFormula": "Формула здоровья",
-	"DND5E.HPFormulaError": "Введённая формула пунктов здоровья не может быть рассчитана.",
-	"DND5E.HPFormulaRollMessage": "Формула броска пунктов здоровья",
+	"DND5E.HitPointsConfig": "Настройка хитов",
+	"DND5E.HitPointsCurrent": "Текущие хиты",
+	"DND5E.HitPointsMax": "Максимальные хиты",
+	"DND5E.HitPointsMin": "Минимальные хиты",
+	"DND5E.HitPointsOverride": "Перезапись максимальных хитов",
+	"DND5E.HitPointsOverrideHint": "Перезаписать автоматически раскичатанные хиты, игнорируя класс, бонусы и  прочие модификаторы.",
+	"DND5E.HitPointsTemp": "Временные хиты",
+	"DND5E.HitPointsTempShort": "Временные хиты",
+	"DND5E.HitPointsTempMax": "Временные максимальные хиты",
+	"DND5E.HitPointsTempMaxHint": "Временно изменяет максимальные хиты.",
+	"DND5E.HitPointsTempMaxShort": "Врем. макс. хиты",
+	"DND5E.HP": "Хиты",
+	"DND5E.HPFormula": "Формула хитов",
+	"DND5E.HPFormulaError": "Введённая формула хитов не может быть рассчитана.",
+	"DND5E.HPFormulaRollMessage": "Формула броска хитов",
 
 	"DND5E.HITDICE": {
 		"Action": {
@@ -2489,22 +2489,22 @@
 			"Increase": "Повышение"
 		},
 		"Available": "{number} доступно",
-		"Config": "Настройка костей здоровья",
+		"Config": "Настройка костей хитов",
 		"Counted": {
-			"one": "{number} кость здоровья",
-			"other": "{number} костей здоровья"
+			"one": "{number} кость хитов",
+			"other": "{number} костей хитов"
 		}
 	},
 
-	"DND5E.HitDie": "Кость здоровья",
-	"DND5E.HitDice": "Кости здоровья",
-	"DND5E.HitDiceConfig": "Настройка кости здоровья",
-	"DND5E.HitDiceConfigHint": "Настройте оставшиеся кости здоровья для каждого класса",
-	"DND5E.HitDiceMax": "Максимальная кость здоровья",
-	"DND5E.HitDiceRemaining": "Оставшиеся кости здоровья",
-	"DND5E.HitDiceRoll": "Бросок кости здоровья",
-	"DND5E.HitDiceWarn": "У {name} не осталось {formula} костей здоровья!",
-	"DND5E.HitDiceNPCWarn": "У {name} не осталось костей здоровья!",
+	"DND5E.HitDie": "Кость хитов",
+	"DND5E.HitDice": "Кости хитов",
+	"DND5E.HitDiceConfig": "Настройка кости хитов",
+	"DND5E.HitDiceConfigHint": "Настройте оставшиеся кости хитов для каждого класса",
+	"DND5E.HitDiceMax": "Максимальная кость хитов",
+	"DND5E.HitDiceRemaining": "Оставшиеся кости хитов",
+	"DND5E.HitDiceRoll": "Бросок кости хитов",
+	"DND5E.HitDiceWarn": "У {name} не осталось {formula} костей хитов!",
+	"DND5E.HitDiceNPCWarn": "У {name} не осталось костей хитов!",
 	"DND5E.Ideals": "Идеалы",
 	"DND5E.Identified": "Опознанный",
 	"DND5E.Identifier": "Идентификатор",
@@ -2771,7 +2771,7 @@
 			"Traits": "Особенности"
 		},
 		"Important": {
-			"Hint": "Важные персонажи Мастера имеют кости здоровья, проходят испытания против смерти, и имеют показатель лояльности (если включено). Любые ПМ с классами считаются важными не зависимо от этой настройки.",
+			"Hint": "Важные персонажи Мастера имеют кости хитов, проходят спасбросок от смерти, и имеют показатель лояльности (если включено). Любые ПМ с классами считаются важными не зависимо от этой настройки.",
 			"Label": "Важный ПМ"
 		}
 	},
@@ -2805,32 +2805,32 @@
 	"DND5E.PersonalityTraits": "Свойства личности",
 	"DND5E.Polymorph": "Полиморф",
 	"DND5E.PolymorphAcceptSettings": "Особые настройки",
-	"DND5E.PolymorphAddTemp": "Доб. ПЗ цели как временные ПЗ",
+	"DND5E.PolymorphAddTemp": "Доб. хиты цели как временные хиты",
 	"DND5E.PolymorphCustomTransformation": "Особая трансформация",
 	"DND5E.PolymorphEffectTransformation": "Эффект трансформации",
 	"DND5E.PolymorphKeepAE": "Сохранить все эффекты (перезапись других настроек эффектов)",
 	"DND5E.PolymorphKeepBackgroundAE": "Сохранить эффекты от происхождения",
 	"DND5E.PolymorphKeepBio": "Сохранить биографию",
-	"DND5E.PolymorphKeepClass": "Сохранить бонус умения",
+	"DND5E.PolymorphKeepClass": "Сохранить бонус мастерства",
 	"DND5E.PolymorphKeepClassAE": "Сохранить эффекты от класса и подкласса",
 	"DND5E.PolymorphKeepEquipmentAE": "Сохранить эффекты от снаряжения",
 	"DND5E.PolymorphKeepFeats": "Сохранить особенности",
 	"DND5E.PolymorphKeepFeatureAE": "Сохранить эффекты от особенностей",
-	"DND5E.PolymorphKeepHP": "Сохранить ПЗ и КЗ",
+	"DND5E.PolymorphKeepHP": "Сохранить хиьы и кость хитов",
 	"DND5E.PolymorphKeepItems": "Сохранить снаряжение",
 	"DND5E.PolymorphKeepMental": "Сохранить ИНТ, МДР, ХАР",
 	"DND5E.PolymorphKeepOriginAE": "Сохранить эффекты от актёра (не связанные с особенностями, предметами, заклинаниями)",
 	"DND5E.PolymorphKeepOtherOriginAE": "Сохранить эффекты от других актёров",
 	"DND5E.PolymorphKeepPhysical": "Сохранить СИЛ, ЛВК, ВЫН",
-	"DND5E.PolymorphKeepSaves": "Сохранить умение в испытаниях",
+	"DND5E.PolymorphKeepSaves": "Сохранить владение спасбросками",
 	"DND5E.PolymorphKeepSelf": "Сохранить себя (изменить только изображение и размер, например для заклинания Изменение облика)",
-	"DND5E.PolymorphKeepSkills": "Сохранить умение в навыках",
+	"DND5E.PolymorphKeepSkills": "Сохранить владение навыками",
 	"DND5E.PolymorphKeepSpellAE": "Сохранить эффекты от заклинаний",
 	"DND5E.PolymorphKeepSpells": "Сохранить заклинания",
 	"DND5E.PolymorphKeepType": "Сохранить тип существа",
 	"DND5E.PolymorphKeepVision": "Сохранить зрение (персонажа и токена)",
-	"DND5E.PolymorphMergeSaves": "Объединить умение в испытаниях (оставить высший)",
-	"DND5E.PolymorphMergeSkills": "Объединить умение в навыках (оставить высший)",
+	"DND5E.PolymorphMergeSaves": "Объединить владение спасбросками (оставить высший)",
+	"DND5E.PolymorphMergeSkills": "Объединить владение навыками (оставить высший)",
 	"DND5E.PolymorphPromptTitle": "Трансформация актёра",
 	"DND5E.PolymorphRestoreTransformation": "Обратить трансформацию",
 	"DND5E.PolymorphRevertNoOriginalActorWarn": "Не найден оригинальный актёр с идентификатором '{reference}'",
@@ -2860,7 +2860,7 @@
 	},
 	"DND5E.Price": "Цена",
 	"DND5E.Proficiency": "Мастерство",
-	"DND5E.ProficiencyBonus": "Бонус умения",
+	"DND5E.ProficiencyBonus": "Бонус мастерства",
 	"DND5E.ProficiencyBonusAbbr": "БУ",
 	"DND5E.ProficiencyConfigurationHint": "Настройка бонуса и умения.",
 	"DND5E.ProficiencyConfigureTitle": "Настройка {label}",
@@ -2942,20 +2942,20 @@
 		"Configuration": "Настройка отдыха",
 		"HitDice": {
 			"AutoSpend": {
-				"Hint": "Автоматически использовать кости здоровья, пока здоровье полностью не восстановится.",
-				"Label": "Автоматически использовать КЗ"
+				"Hint": "Автоматически использовать кости хитов, пока хиты полностью не восстановится.",
+				"Label": "Автоматически использовать кость хитов"
 			},
-			"None": "Во время отдыха закончились кости здоровья.",
-			"Select": "Выберите кость здоровья"
+			"None": "Во время отдыха закончились кости хитов.",
+			"Select": "Выберите кость хитов"
 		},
 		"Label": "Отдых",
 		"Long": {
 			"Abbreviation": "ДО",
 			"Hint": {
-				"Group": "В конце долгого отдыха участники группы восстанавливают все пункты здоровья, а также кости здоровья, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
-				"GroupLegacy": "В конце долгого отдыха участники группы восстанавливают все пункты здоровья, а также половину от максимума костей здоровья, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
-				"Normal": "В конце долгого отдыха вы восстанавливаете все пункты здоровья, а также кости здоровья, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
-				"NormalLegacy": "В конце долгого отдыха вы восстанавливаете все пункты здоровья, а также половину от максимума костей здоровья, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний."
+				"Group": "В конце долгого отдыха участники группы восстанавливают все хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+				"GroupLegacy": "В конце долгого отдыха участники группы восстанавливают все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+				"Normal": "В конце долгого отдыха вы восстанавливаете все хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+				"NormalLegacy": "В конце долгого отдыха вы восстанавливаете все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний."
 			},
 			"Label": "Долгий отдых",
 			"LabelShort": "Долгий",
@@ -2974,8 +2974,8 @@
 		"Short": {
 			"Abbreviation": "КО",
 			"Hint": {
-				"Group": "При коротком отдыхе участники группы могут использовать кости здоровья и восстановить заряды предметов.",
-				"Normal": "При коротком отдыхе вы можете использовать кости здоровья и восстановить заряды предметов."
+				"Group": "При коротком отдыхе участники группы могут использовать кости хитов и восстановить заряды предметов.",
+				"Normal": "При коротком отдыхе вы можете использовать кости хитов и восстановить заряды предметов."
 			},
 			"Label": "Короткий отдых",
 			"LabelShort": "Короткий",
@@ -3034,15 +3034,15 @@
 
 	"DND5E.SAVE": {
 		"Title": {
-			"one": "Испытание",
-			"other": "Испытания"
+			"one": "Спасброскок",
+			"other": "Спасброски"
 		},
 		"FIELDS": {
 			"damage": {
 				"label": "Урон",
 				"onSave": {
 					"label": "Урон при успехе",
-					"hint": "Урон, получаемый при успешном испытании",
+					"hint": "Урон, получаемый при успешном спасброске",
 					"Full": "Полный урон",
 					"Half": "Половина урона",
 					"None": "Нет урона"
@@ -3055,14 +3055,14 @@
 			"effects": {
 				"onSave": {
 					"label": "Всегда применять",
-					"hint": "Этот эффект будет всегда применён, даже если цель успешно пройдёт испытание."
+					"hint": "Этот эффект будет всегда применён, даже если цель успешно пройдёт спасбросок."
 				}
 			},
 			"save": {
-				"label": "Подробности испытания",
+				"label": "Подробности спасбросков",
 				"ability": {
-					"label": "Характеристики испытаний",
-					"hint": "Характеристики, используемые при прохождении испытаний."
+					"label": "Характеристики спасбросков",
+					"hint": "Характеристики, используемые при прохождении спасбросков."
 				},
 				"dc": {
 					"label": "Сложность",
@@ -3072,18 +3072,18 @@
 					},
 					"formula": {
 						"label": "Формула СЛ",
-						"hint": "Формула или неизменное значение для испытания СЛ."
+						"hint": "Формула или неизменное значение для спасброска СЛ."
 					},
 					"CustomFormula": "Своя формула",
 					"DefaultFormula": "8 + @mod + @prof"
 				}
 			}
 		},
-		"OnSave": "При успешном испытании"
+		"OnSave": "При успешном спасброске"
 	},
 
-	"DND5E.SaveBonus": "Бонус испытания",
-	"DND5E.SaveGlobalBonusHint": "Бонус применяется ко всем испытаниям.",
+	"DND5E.SaveBonus": "Бонус спасброска",
+	"DND5E.SaveGlobalBonusHint": "Бонус применяется ко всем спасброскам.",
 	"DND5E.Scroll": {
 		"CreateFrom": "Создание свитка из {spell}",
 		"CreateScroll": "Создание свитка",
@@ -3095,7 +3095,7 @@
 			"Reference": "Краткие"
 		},
 		"RequiresConcentration": "Требует концентрацию",
-		"SaveDC": "СЛ испытания",
+		"SaveDC": "СЛ спасброска",
 		"Values": "Параметры заклинания"
 	},
 	"DND5E.Senses": "Восприятие",
@@ -3126,12 +3126,12 @@
 	"DND5E.SheetClassVehicle": "Бланк транспорта 5e",
 	"DND5E.SheetModeEdit": "Изменение",
 	"DND5E.SheetModePlay": "Игра",
-	"DND5E.SavingThrow": "Испытание",
-	"DND5E.SavingThrowDC": "СЛ {dc} - испытание {ability}",
-	"DND5E.SavingThrowRoll": "Испытание {ability}",
-	"DND5E.SavingThrowShort": "Испытание",
+	"DND5E.SavingThrow": "Спасбросок",
+	"DND5E.SavingThrowDC": "СЛ {dc} - спасбросок {ability}",
+	"DND5E.SavingThrowRoll": "Спасбросок {ability}",
+	"DND5E.SavingThrowShort": "Спасбросок",
 	"DND5E.SaveDC": "СЛ {dc} - {ability}",
-	"DND5E.SavePromptTitle": "Испытание {ability}",
+	"DND5E.SavePromptTitle": "Спасбросок {ability}",
 	"DND5E.ScalingFormula": "Формула подъёма",
 	"DND5E.ScalingMode": "Режим подъёма",
 	"DND5E.ScalingValue": "Значение подъёма",
@@ -3356,7 +3356,7 @@
 			"RemoveEntry": "Удалить запись"
 		},
 		"Choice": {
-			"Armor": "Выбор брони",
+			"Armor": "Выбор доспеха",
 			"Focus": "Выбор фокусирующего предмета",
 			"Tool": "Выбор инструмента",
 			"Weapon": "Выбор оружия"
@@ -3391,28 +3391,28 @@
 		"FIELDS": {
 			"bonuses": {
 				"ac": {
-					"label": "Бонусный класс брони",
-					"hint": "Бонус класс брони призванного существа."
+					"label": "Бонусный класс доспеха",
+					"hint": "Бонус класс доспеха призванного существа."
 				},
 				"attackDamage": {
 					"label": "Бонус урона атак",
 					"hint": "Дополнительный урон, добавляемый к атакам существа."
 				},
 				"hd": {
-					"label": "Бонусная кость здоровья",
-					"hint": "Дополнительная кость здоровья, добавляемая существу сверх указанной формулы ПЗ. Только для призываемых актёров."
+					"label": "Бонусная кость хитов",
+					"hint": "Дополнительная кость хитов, добавляемая существу сверх указанной формулы хитов. Только для призываемых актёров."
 				},
 				"healing": {
 					"label": "Бонусное исцеление",
 					"hint": "Дополнительное исцеление, добавляемое к исцеляющим способностям."
 				},
 				"hp": {
-					"label": "Бонусные пункты здоровья",
-					"hint": "Бонус пунктов здоровья призванного существа."
+					"label": "Бонусные хиты",
+					"hint": "Бонус хитов призванного существа."
 				},
 				"saveDamage": {
-					"label": "Бонусный урон испытания",
-					"hint": "Дополнительный урон, добавляемый к способностям существа, требующих прохождения испытания."
+					"label": "Бонусный урон спасброска",
+					"hint": "Дополнительный урон, добавляемый к способностям существа, требующих прохождения спасброска."
 				}
 			},
 			"creatureSizes": {
@@ -3426,7 +3426,7 @@
 			"match": {
 				"ability": {
 					"label": "Соответствующая характеристика",
-					"hint": "Характеристика, которая будет использована для соответсвующих атак и испытаний."
+					"hint": "Характеристика, которая будет использована для соответсвующих атак и спасбросков."
 				},
 				"attacks": {
 					"label": "Приравнивание атак",
@@ -3437,8 +3437,8 @@
 					"hint": "Изменение умений призванного существа, чтобы те совпадали с атаками призывателя."
 				},
 				"saves": {
-					"label": "Приравнивание испытаний",
-					"hint": "Изменение СЛ испытаний призванного существа, чтобы те совпадали с призывателем."
+					"label": "Приравнивание спасбросков",
+					"hint": "Изменение СЛ спасбросков призванного существа, чтобы те совпадали с призывателем."
 				}
 			},
 			"profiles": {
@@ -3505,7 +3505,7 @@
 		},
 		"CreatureChanges": {
 			"Label": "Изменения существа",
-			"Hint": "Изменения, применяемые к призванному существу.  Все @ ссылки в формулах будут относиться к параметрам призывателя. Параметры самого призванного существа используют префикс @summon (напр. @summon.attributes.hd.max для КЗ существа)."
+			"Hint": "Изменения, применяемые к призванному существу.  Все @ ссылки в формулах будут относиться к параметрам призывателя. Параметры самого призванного существа используют префикс @summon (напр. @summon.attributes.hd.max для кости хитов существа)."
 		},
 		"ItemChanges": {
 			"Label": "Изменения предметов",
@@ -3847,12 +3847,12 @@
 	"DND5E.ToolThieves": "Воровские инструменты",
 	"DND5E.ToolVehicle": "Транспорт",
 	"DND5E.TraitAll": "Все {category}",
-	"DND5E.TraitArmorPlural.one": "Обращение с бронёй",
-	"DND5E.TraitArmorPlural.other": "Обращение с бронёй",
-	"DND5E.TraitArmorProf": "Обращение с бронёй",
-	"DND5E.TraitArmorLegacyPlural.one": "Умение в броне",
-	"DND5E.TraitArmorLegacyPlural.other": "Умения в броне",
-	"DND5E.TraitArmorLegacyProf": "Умения в броне",
+	"DND5E.TraitArmorPlural.one": "Владение доспехами",
+	"DND5E.TraitArmorPlural.other": "Владения доспехами",
+	"DND5E.TraitArmorProf": "Владения доспехами",
+	"DND5E.TraitArmorLegacyPlural.one": "Владение доспехами",
+	"DND5E.TraitArmorLegacyPlural.other": "Владения доспехами",
+	"DND5E.TraitArmorLegacyProf": "Владение доспехами",
 	"DND5E.TraitCIPlural.one": "Иммунитет к состоянию",
 	"DND5E.TraitCIPlural.other": "Иммунитеты к состоянию",
 	"DND5E.TraitConfig": "Настройка {trait}",
@@ -3874,17 +3874,17 @@
 	"DND5E.TraitLanguagesPlural.one": "Язык",
 	"DND5E.TraitLanguagesPlural.other": "Языки",
 	"DND5E.TraitSave": "Обновить",
-	"DND5E.TraitSavesPlural.one": "Умение в испытаниях",
-	"DND5E.TraitSavesPlural.other": "Умения в испытаниях",
+	"DND5E.TraitSavesPlural.one": "Владение спасброском",
+	"DND5E.TraitSavesPlural.other": "Владение спасбросками",
 	"DND5E.TraitSelectorSpecial": "Особые (разделяйте точкой с запятой)",
-	"DND5E.TraitSkillsPlural.one": "Умение в навыках",
-	"DND5E.TraitSkillsPlural.other": "Умения в навыках",
-	"DND5E.TraitToolPlural.one": "Умение в инструментах",
-	"DND5E.TraitToolPlural.other": "Умения в инструментах",
-	"DND5E.TraitToolProf": "Умения в инструментах",
-	"DND5E.TraitWeaponPlural.one": "Умение в оружии",
-	"DND5E.TraitWeaponPlural.other": "Умения в оружии",
-	"DND5E.TraitWeaponProf": "Умения в оружии",
+	"DND5E.TraitSkillsPlural.one": "Владение навыком",
+	"DND5E.TraitSkillsPlural.other": "Владение навыками",
+	"DND5E.TraitToolPlural.one": "Владение инструментом",
+	"DND5E.TraitToolPlural.other": "Владение инструментами",
+	"DND5E.TraitToolProf": "Владения инструментами",
+	"DND5E.TraitWeaponPlural.one": "Владение оружием",
+	"DND5E.TraitWeaponPlural.other": "Владения оружием",
+	"DND5E.TraitWeaponProf": "Владения оружием",
 	"DND5E.Traits": "Особенности",
 	"DND5E.TraitsChosen": "Выбранные особенности",
 	"DND5E.Treasure": {
@@ -3916,19 +3916,19 @@
 		"DISTANCE": {
 			"Label": "Единицы дистанции",
 			"Foot": {
-				"Label": "Футы",
+				"Label": "футов",
 				"Abbreviation": "фт"
 			},
 			"Kilometer": {
-				"Label": "Километры",
+				"Label": "киловметров",
 				"Abbreviation": "км"
 			},
 			"Meter": {
-				"Label": "Метры",
+				"Label": "метров",
 				"Abbreviation": "м"
 			},
 			"Mile": {
-				"Label": "Мили",
+				"Label": "миль",
 				"Abbreviation": "мл"
 			}
 		},
@@ -4193,18 +4193,18 @@
 					"label": "С экипажем"
 				},
 				"hp": {
-					"label": "Пункты здоровья",
+					"label": "Хиты",
 					"conditions": {
-						"label": "Состояние здоровья"
+						"label": "Состояние хитов"
 					},
 					"dt": {
 						"label": "Предел прочности"
 					},
 					"max": {
-						"label": "Макс. ПЗ"
+						"label": "Макс. хиты"
 					},
 					"value": {
-						"label": "Текущие ПЗ"
+						"label": "Текущие хиты"
 					}
 				},
 				"speed": {
@@ -4252,10 +4252,10 @@
 	"DND5E.VersatileDamage": "Полуторный урон",
 	"DND5E.VsDC": "со СЛ",
 	"DND5E.Vulnerabilities": "Уязвимости",
-	"DND5E.WarnBadACFormula": "Формула КБ  \"{formula}\" не может быть рассчитана.",
+	"DND5E.WarnBadACFormula": "Формула КД  \"{formula}\" не может быть рассчитана.",
 	"DND5E.WarnCantAddMultipleAdvancements": "В данный момент нельзя добавить несколько предметов с развитием одновременно. Пожалуйста добавьте их по очереди.",
-	"DND5E.WarnMultipleArmor": "Надето более одного комплекта брони. Расчёт КБ может быть некорректным.",
-	"DND5E.WarnMultipleShields": "Надето более одного щита. Расчёт КБ может быть некорректным.",
+	"DND5E.WarnMultipleArmor": "Надето более одного комплекта доспехов. Расчёт КД может быть некорректным.",
+	"DND5E.WarnMultipleShields": "Надето более одного щита. Расчёт КД может быть некорректным.",
 
 	"DND5E.WEAPON": {
 		"FIELDS": {
@@ -4266,7 +4266,7 @@
 			},
 			"armor": {
 				"value": {
-					"label": "Класс брони"
+					"label": "Класс доспеха"
 				}
 			},
 			"damage": {
@@ -4331,7 +4331,7 @@
 		"RequestRoll": "Запросить бросок",
 		"RollRequest": "Запрос броска",
 		"SaveShort": "{save}",
-		"SaveLong": "Испытание {save}",
+		"SaveLong": "Спасбросок {save}",
 		"SpecificCheck": "{ability} ({type})",
 		"Warning": {
 			"NoActivityOnItem": "{item} у {actor} не имеет функции с названием {activity}.",
@@ -4385,8 +4385,8 @@
 						"hint": "Дополнительное описание под начальным снаряжением."
 					},
 					"additionalHitPoints": {
-						"label": "Дополнительное описание пунктов здоровья",
-						"hint": "Дополнительное описание под автоматическим расчётом пунктов здоровья."
+						"label": "Дополнительное описание хитов",
+						"hint": "Дополнительное описание под автоматическим расчётом хитов."
 					},
 					"additionalTraits": {
 						"label": "Дополнительное описание умений",
@@ -4424,11 +4424,11 @@
 				"Name": "{level}-й уровень: {name}"
 			},
 			"HitPoints": {
-				"Header": "Пункты здоровья",
-				"HitDiceLegacy": "<strong>Кость здоровья:</strong> {dice} за уровень класса {class}",
+				"Header": "Хиты",
+				"HitDiceLegacy": "<strong>Кость хитов:</strong> {dice} за уровень класса {class}",
 				"HitDiceModern": "{dice} за уровень класса {class}",
-				"Level1": "<strong>ПЗ на 1-м уровне:</strong> {max} + модификатор Выносливости",
-				"LevelX": "<strong>ПЗ на следующих уровнях:</strong> {dice} (или {average}) + модификатор Выносливости за каждый уровень класса {class} выше 1-го"
+				"Level1": "<strong>Хиты на 1-м уровне:</strong> {max} + модификатор Выносливости",
+				"LevelX": "<strong>Хиты на следующих уровнях:</strong> {dice} (или {average}) + модификатор Выносливости за каждый уровень класса {class} выше 1-го"
 			},
 			"ItemHint": "Перенесите класс сюда",
 			"NoValidClass": "Не выбран класс. Нажмите на кнопку изменения, чтобы добавить класс.",
@@ -4633,13 +4633,13 @@
 			"ATTACK": {
 				"Name": "Видимость результата атаки",
 				"Hint": "Видимость результатов бросков атаки в карточках чата для игроков.",
-				"All": "Результат и КБ цели",
+				"All": "Результат и КД цели",
 				"HideAC": "Только результат",
 				"None": "Скрывать всё"
 			},
 			"CHALLENGE": {
 				"All": "Показывать всё",
-				"Hint": "Определяет видимость сложности проверок и испытаний игроками, а также выделяет успех/провал на карточках чата.",
+				"Hint": "Определяет видимость сложности проверок и спасбросков игроками, а также выделяет успех/провал на карточках чата.",
 				"Name": "Видимость сложности",
 				"None": "Скрывать всё",
 				"Player": "Только для других игроков"
