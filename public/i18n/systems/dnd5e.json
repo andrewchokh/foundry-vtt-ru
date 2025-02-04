@@ -659,7 +659,7 @@
 			"Width": "Ширина"
 		}
 	},
-	"DND5E.Armor": "Доспех",
+	"DND5E.Armor": "Доспехи",
 	"DND5E.ArmorClass": "Класс доспеха",
 	"DND5E.ArmorClassEquipment": "Надетый доспех",
 	"DND5E.ArmorClassFlat": "Неизменный",
@@ -676,9 +676,9 @@
 	"DND5E.ArmorConfigHint": "Заполните поле выше для перезаписи автоматического расчёта КД",
 	"DND5E.ArmorClassCalculation": "Расчёт",
 	"DND5E.ArmorClassFormula": "Формула",
-	"DND5E.ArmorHeavyProficiency": "Тяжёлая",
-	"DND5E.ArmorLightProficiency": "Лёгкая",
-	"DND5E.ArmorMediumProficiency": "Средняя",
+	"DND5E.ArmorHeavyProficiency": "Тяжёлые",
+	"DND5E.ArmorLightProficiency": "Лёгкие",
+	"DND5E.ArmorMediumProficiency": "Средние",
 	"DND5E.ArmorValue": "Значение доспеха",
 	"DND5E.AC": "КД",
 
@@ -1084,7 +1084,7 @@
 		},
 		"Filters": {
 			"Label": "Фильтр",
-			"HasDarkvision": "Есть Ночное зрение",
+			"HasDarkvision": "Есть Тёмное зрение",
 			"HasSpellcasting": "Есть Заклинания",
 			"SearchResults": "Результаты поисков"
 		},
@@ -1201,7 +1201,7 @@
 	"DND5E.ConsumeHitDiceLargestLong": "Наивысшая доступная кость хитов",
 	"DND5E.ConsumeHitDiceSmallest": "Наименьшая",
 	"DND5E.ConsumeHitDiceSmallestLong": "Наименьшая доступная кость хитов",
-	"DND5E.ConsumeMaterial": "Реагенты",
+	"DND5E.ConsumeMaterial": "Материалы",
 	"DND5E.ConsumeCharges": "Использования предмета",
 	"DND5E.ConsumeResource": "Использовать ресурс?",
 	"DND5E.ConsumeRecharge": "Использовать перезарядку?",
@@ -1386,9 +1386,9 @@
 				"Warning": "использований у {name}"
 			},
 			"Material": {
-				"Label": "Реагент",
-				"PromptDecrease": "Расход реагента?",
-				"PromptIncrease": "Восстановление реагента?",
+				"Label": "Материал",
+				"PromptDecrease": "Расход материала?",
+				"PromptIncrease": "Восстановление материала?",
 				"PromptHintDecrease": "Убавить {item} на <strong>{cost}</strong> (осталось {quantity}).",
 				"PromptHintIncrease": "Прибавить {item} на <strong>{cost}</strong>.",
 				"Warning": "у {name}"
@@ -1610,7 +1610,7 @@
 		"Hint": "Формулы, которые будут добавлены к урону определённого типа, нанесенному этому актеру. Отрицательные значения уменьшают получаемый урон.",
 		"BypassHint": "Предметы с этими свойствами игнорируют модификаторы к физическому урону."
 	},
-	"DND5E.DamageNecrotic": "Некротический",
+	"DND5E.DamageNecrotic": "Некротическая энергия",
 	"DND5E.DamagePiercing": "Колющий",
 	"DND5E.DamagePhysical": "Немагический физический",
 	"DND5E.DamagePhysicalBypass": "Физическое пробивание",
@@ -1848,7 +1848,7 @@
 		"Label": "Зачарование",
 		"Period": {
 			"AtWill": "Неограниченно",
-			"LongRest": "Долгий отдых",
+			"LongRest": "Продолжительный отдых",
 			"Never": "Никогда",
 			"ShortRest": "Короткий отдых"
 		},
@@ -2245,7 +2245,7 @@
 	"DND5E.Loot.Gear": "Походное снаряжение",
 	"DND5E.Loot.Gem": "Самоцвет",
 	"DND5E.Loot.Junk": "Хлам",
-	"DND5E.Loot.Material": "Реагент",
+	"DND5E.Loot.Material": "Материал",
 	"DND5E.Loot.Resource": "Ресурс",
 	"DND5E.Loot.Treasure": "Сокровище",
 	"DND5E.Flaws": "Изъяны",
@@ -2399,7 +2399,7 @@
 		"Subtype": "{type} ({subtype})"
 	},
 	"DND5E.Hair": "Волосы",
-	"DND5E.HalfProficient": "Наполовину умелый",
+	"DND5E.HalfProficient": "Половинное владение",
 
 	"DND5E.HEAL": {
 		"Title": "Излечение",
@@ -2572,7 +2572,7 @@
 		},
 		"Property": {
 			"Adamantine": "Адамантиновое",
-			"Ammunition": "Боеприпасы",
+			"Ammunition": "Боеприпас",
 			"Concentration": "Концентрация",
 			"Finesse": "Фехтовальное",
 			"Firearm": "Огнестрельное",
@@ -2582,7 +2582,7 @@
 			"Loading": "Заряжаемое",
 			"Material": "Материальный",
 			"Magical": "Магическое",
-			"Reach": "Длинное",
+			"Reach": "Досягаемость",
 			"Reload": "Перезарядка",
 			"Returning": "Возвращаемое",
 			"Ritual": "Ритуал",
@@ -2593,7 +2593,7 @@
 			"Thrown": "Метательное",
 			"Trait": "Пассивное свойство",
 			"TwoHanded": "Двуручное",
-			"Versatile": "Полуторное",
+			"Versatile": "Универсальное",
 			"Verbal": "Вербальный",
 			"WeightlessContents": "Содержимое без веса"
 		}
@@ -2655,11 +2655,11 @@
 		},
 		"Language": {
 			"Aarakocra": "Ааракокра",
-			"Abyssal": "Демонический",
+			"Abyssal": "Глубинная Речь",
 			"Aquan": "Подводный",
 			"Auran": "Ауран",
 			"Celestial": "Небесный",
-			"Common": "Всеобщий",
+			"Common": "Общий",
 			"CommonSign": "Язык жестов",
 			"DeepSpeech": "Глубинный",
 			"Draconic": "Драконий",
@@ -2673,7 +2673,7 @@
 			"Goblin": "Гоблинский",
 			"Halfling": "Полуросличий",
 			"Ignan": "Игнан",
-			"Infernal": "Дьявольский",
+			"Infernal": "Инфернальный",
 			"Orc": "Орочий",
 			"Primordial": "Первозданный",
 			"Sylvan": "Сильван",
@@ -2866,7 +2866,7 @@
 	"DND5E.ProficiencyConfigureTitle": "Настройка {label}",
 	"DND5E.ProficiencyLevel": "Уровень умения",
 	"DND5E.ProficiencyOther": "Прочее",
-	"DND5E.Proficient": "Умелый",
+	"DND5E.Proficient": "Владение",
 	"DND5E.Properties": "Свойства",
 	"DND5E.PropertyBase": "Базовый",
 	"DND5E.PropertyTotal": "Всего",
@@ -2923,8 +2923,8 @@
 	"DND5E.ReactionAbbr": "Р",
 	"DND5E.ReactionPl": "Реакции",
 	"DND5E.Recharge": "Перезарядка",
-	"DND5E.RechargeLong": "Перезарядка после долгого отдыха",
-	"DND5E.RechargeShort": "Перезарядка после короткого или долгого отдыха",
+	"DND5E.RechargeLong": "Перезарядка после продолжительного отдыха",
+	"DND5E.RechargeShort": "Перезарядка после короткого или продолжительного отдыха",
 	"DND5E.Recovery": "Восстановление",
 	"DND5E.RecoveryFormula": "Формула восстановления",
 	"DND5E.RequiredMaterials": "Требуемые материалы",
@@ -2952,19 +2952,19 @@
 		"Long": {
 			"Abbreviation": "ДО",
 			"Hint": {
-				"Group": "В конце долгого отдыха участники группы восстанавливают все хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
-				"GroupLegacy": "В конце долгого отдыха участники группы восстанавливают все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
-				"Normal": "В конце долгого отдыха вы восстанавливаете все хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
-				"NormalLegacy": "В конце долгого отдыха вы восстанавливаете все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний."
+				"Group": "В конце продолжительного отдыха участники группы восстанавливают все хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+				"GroupLegacy": "В конце продолжительного отдыха участники группы восстанавливают все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+				"Normal": "В конце продолжительного отдыха вы восстанавливаете все хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+				"NormalLegacy": "В конце продолжительного отдыха вы восстанавливаете все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний."
 			},
-			"Label": "Долгий отдых",
-			"LabelShort": "Долгий",
-			"Recovery": "Восстанавливается при долгом отдыхе",
+			"Label": "Продолжительный отдых",
+			"LabelShort": "Продолжительный",
+			"Recovery": "Восстанавливается при продолжительном отдыхе",
 			"Result": {
-				"Full": "{name} завершает долгий отдых и восстанавливает {health} и {dice}.",
-				"HitDice": "{name} завершает долгий отдых и восстанавливает {dice}.",
-				"HitPoints": "{name} завершает долгий отдых и восстанавливает {health}.",
-				"Short": "{name} завершает долгий отдых."
+				"Full": "{name} завершает продолжительный отдых и восстанавливает {health} и {dice}.",
+				"HitDice": "{name} завершает продолжительный отдых и восстанавливает {dice}.",
+				"HitPoints": "{name} завершает продолжительный отдых и восстанавливает {health}.",
+				"Short": "{name} завершает продолжительный отдых."
 			}
 		},
 		"NewDay": {
@@ -3101,9 +3101,9 @@
 	"DND5E.Senses": "Восприятие",
 	"DND5E.SensesConfig": "Настройка восприятия",
 	"DND5E.SensesConfigHint": "Настройка особых способов восприятия, которыми обладает существо.",
-	"DND5E.SenseDarkvision": "Ночное зрение",
-	"DND5E.SenseBlindsight": "Слепозрение",
-	"DND5E.SenseTremorsense": "Виброчувствительность",
+	"DND5E.SenseDarkvision": "Тёмное зрение",
+	"DND5E.SenseBlindsight": "Слепое зрение",
+	"DND5E.SenseTremorsense": "Чувство вибрации",
 	"DND5E.SenseTruesight": "Истинное зрение",
 	"DND5E.SenseUnits": "Единицы измерения",
 	"DND5E.SenseSpecial": "Способы восприятия",
@@ -3299,11 +3299,11 @@
 	"DND5E.SpellLevel9": "9-й круг",
 	"DND5E.SpellLevelSlot": "{level} ({n} ячеек)",
 	"DND5E.SpellLevelPact": "Ячейка договора [круг {level}] ({n} ячеек)",
-	"DND5E.SpellMaterials": "Реагенты заклинания",
-	"DND5E.SpellMaterialsConsumed": "Расходует реагенты",
-	"DND5E.SpellMaterialsCost": "Цена реагента",
-	"DND5E.SpellMaterialsDescription": "Описание реагента",
-	"DND5E.SpellMaterialsSupply": "Доступность реагента",
+	"DND5E.SpellMaterials": "Материалы заклинания",
+	"DND5E.SpellMaterialsConsumed": "Расходует материалы",
+	"DND5E.SpellMaterialsCost": "Цена материала",
+	"DND5E.SpellMaterialsDescription": "Описание материала",
+	"DND5E.SpellMaterialsSupply": "Доступность материала",
 	"DND5E.SpellName": "Название",
 	"DND5E.SpellNone": "Нет",
 	"DND5E.SpellPrepAtWill": "Неограниченно",
@@ -3362,7 +3362,7 @@
 			"Weapon": "Выбор оружия"
 		},
 		"DropHint": "Перенесите предмет сюда",
-		"IfProficient": "Если умелый",
+		"IfProficient": "Если владеет",
 		"Operator": {
 			"AND": "Все из...",
 			"OR": "Одно из..."
@@ -4122,8 +4122,8 @@
 					"Label": "Инициатива"
 				},
 				"LongRest": {
-					"Label": "Долгий отдых",
-					"Abbreviation": "ДО"
+					"Label": "Продолжительный отдых",
+					"Abbreviation": "ПО"
 				},
 				"ShortRest": {
 					"Label": "Короткий отдых",
@@ -4293,14 +4293,14 @@
 
 	"DND5E.WeaponCategory": "{category} оружие",
 	"DND5E.WeaponImprov": "Импровизированное",
-	"DND5E.WeaponMartialM": "Военное ближнее",
-	"DND5E.WeaponMartialProficiency": "Военное",
-	"DND5E.WeaponMartialR": "Военное дист.",
-	"DND5E.WeaponNatural": "Природное",
+	"DND5E.WeaponMartialM": "Воинское рукопашное",
+	"DND5E.WeaponMartialProficiency": "Воинское",
+	"DND5E.WeaponMartialR": "Воинское дал.",
+	"DND5E.WeaponNatural": "Естественное",
 	"DND5E.WeaponSiege": "Осадное орудие",
-	"DND5E.WeaponSimpleM": "Простое ближнее",
+	"DND5E.WeaponSimpleM": "Простое рукопашное",
 	"DND5E.WeaponSimpleProficiency": "Простое",
-	"DND5E.WeaponSimpleR": "Простое дист.",
+	"DND5E.WeaponSimpleR": "Простое дал.",
 	"DND5E.Weight": "Вес",
 	"DND5E.WhisperedTo": "Нашептать ",
 	"DND5E.Wiki": "Вики",
@@ -4549,9 +4549,9 @@
 	"SETTINGS.5eReset": "Сброс",
 	"SETTINGS.5eRestL": "Настройте правила отдыха в вашей игре.",
 	"SETTINGS.5eRestN": "Вариант отдыха",
-	"SETTINGS.5eRestPHB": "Книга Игрока (ДО: 8 часов, КО: 1 час)",
-	"SETTINGS.5eRestGritty": "Жестокий реализм (ДО: 7 дней, КО: 8 часов)",
-	"SETTINGS.5eRestEpic": "Эпическая героика (ДО: 1 час, КО: 1 мин)",
+	"SETTINGS.5eRestPHB": "Книга Игрока (ПО: 8 часов, КО: 1 час)",
+	"SETTINGS.5eRestGritty": "Жестокий реализм (ПО: 7 дней, КО: 8 часов)",
+	"SETTINGS.5eRestEpic": "Эпическая героика (ПО: 1 час, КО: 1 мин)",
 	"SETTINGS.5eGridAlignedSquareTemplatesL": "При создании квадратных шаблонов в результате сотворения заклинания или использования предмета, они выравниваются по сетке и не могут быть повёрнуты.",
 	"SETTINGS.5eGridAlignedSquareTemplatesN": "Квадратные шаблоны по сетке",
 	"SETTINGS.5eSanityL": "Включение опциональных правил Рассудка. Требуется перезагрузка мира.",
